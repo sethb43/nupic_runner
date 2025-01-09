@@ -1,6 +1,4 @@
 '''
-Created on Aug 15, 2015
-
 @author: seth
 '''
 import pprint
@@ -33,7 +31,6 @@ def swarm():
                   permWorkDir=swarmWorkDir, 
                   verbosity=0)
     saveModelParams(modelParams)
-
 
 if __name__=="__main__":
     swarm()
